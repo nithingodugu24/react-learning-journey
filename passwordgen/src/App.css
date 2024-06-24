@@ -1,0 +1,74 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .card {
+    background: #f3f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    
+  }
+
+ label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #333;
+  }
+
+  .input-text {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+ .input-text:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+.password{
+  width: 15vw;
+}
+button {
+    width: 100%;
+    width: 8vw;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
+
+button:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+  }
+
+button:active {
+    transform: translateY(0);
+  }
+
+.col{
+  display: flex;
+}
+div{
+  padding: 5px;
+}

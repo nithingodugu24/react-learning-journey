@@ -1,0 +1,30 @@
+.input-box{
+    display: flex;
+    min-height: 5vh;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    outline: none;
+    border: none;
+}
+label{
+    padding-bottom: 10px;
+    color: #818181;
+}
+
+.select-currency 
+{
+ outline: none;
+ border: none;
+ border: 0.5px solid #777777;
+ border-radius: 5px;
+ height: 25px;
+}
